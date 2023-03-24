@@ -1,0 +1,64 @@
+﻿@model MVC.Models.Tombstone
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Tombstone</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ReviewTombstoneId" class="control-label"></label>
+                <input asp-for="ReviewTombstoneId" class="form-control" />
+                <span asp-validation-for="ReviewTombstoneId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReviewUrl" class="control-label"></label>
+                <input asp-for="ReviewUrl" class="form-control" />
+                <span asp-validation-for="ReviewUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PickerIndex" class="control-label"></label>
+                <input asp-for="PickerIndex" class="form-control" />
+                <span asp-validation-for="PickerIndex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Score" class="control-label"></label>
+                <input asp-for="Score" class="form-control" />
+                <span asp-validation-for="Score" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestNewMusic" class="control-label"></label>
+                <input asp-for="BestNewMusic" class="form-control" />
+                <span asp-validation-for="BestNewMusic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestNewReissue" class="control-label"></label>
+                <input asp-for="BestNewReissue" class="form-control" />
+                <span asp-validation-for="BestNewReissue" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

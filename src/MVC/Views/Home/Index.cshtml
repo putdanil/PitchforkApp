@@ -1,0 +1,12 @@
+﻿@using Microsoft.EntityFrameworkCore;
+@using System.Security.Claims;
+@model (string, string)
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2 class="display-4">@Model.Item1</h2>
+    <h2 class="display-4">@Model.Item2</h2>
+</div>

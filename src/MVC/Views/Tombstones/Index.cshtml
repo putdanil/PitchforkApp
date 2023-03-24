@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MVC.Models.Tombstone>
+
+@{
+    ViewData["Title"] = "Reviews";
+}
+
+<h1>Dashboard</h1>
+
+<div class="containermain">
+    <p>Select all data</p>
+    <div>
+        <p>Raw: @ViewBag.Raw</p>
+        <p>Number of rows: @ViewBag.RawLength</p>
+    </div>
+    <div>
+    <p>LINQ: @ViewBag.Linq</p>
+    <p>Number of rows: @ViewBag.LinqLength</p>
+</div>
+    <div>
+    <p>PLINQ: @ViewBag.Plinq</p>
+        <p>Number of rows: @ViewBag.PlinqLength</p>
+</div>
+    <div>
+    <p>Parallel: @ViewBag.Parallel</p>
+        <p>Number of rows: @ViewBag.ParallelLength</p>
+</div>
+</div>
+<div class="containermain">
+    <p>Select reviews with score higher than @ViewBag.Limit</p>
+<div>
+    <p>ScoreRaw: @ViewBag.ScoreRaw</p>
+    <p>Number of rows: @ViewBag.ScoreRawLength</p>
+</div>
+<div>
+    <p>ScoreLinq: @ViewBag.ScoreLinq</p>
+    <p>Number of rows: @ViewBag.ScoreLinqLength</p>
+</div>
+<div>
+    <p>ScorePlinq: @ViewBag.ScorePlinq</p>
+    <p>Number of rows: @ViewBag.ScorePlinqLength</p>
+</div>
+<div>
+    <p>ScoreParallel: @ViewBag.ScoreParallel</p>
+    <p>Number of rows: @ViewBag.ScoreParallelLength</p>
+</div>
+</div>
+<div class="containermain">
+    <p>Slow calculations</p>
+    <div>
+        <p>ParallelMean: @ViewBag.ParallelMean</p>
+        </div>
+    <div>
+        <p>SyncMean: @ViewBag.SyncMean</p>
+    </div>
+</div>

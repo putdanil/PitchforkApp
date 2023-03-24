@@ -1,0 +1,28 @@
+﻿@model MVC.Models.LoginModel
+ 
+@{
+    ViewData["Title"] = "Login";
+}
+
+<p>@ViewData["Message"]</p>
+@using (Html.BeginForm("Form2", "Login", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>Login: </td>
+            <td>@Html.TextBoxFor(m => m.Login)</td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td>@Html.TextBoxFor(m => m.Password)</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Submit" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" class="text-dark" value="Register" asp-area="" asp-controller="Users" asp-action="Create" />
+            </td>
+        </tr>
+    </table>
+}
