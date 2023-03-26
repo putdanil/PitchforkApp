@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AutoMapper/12.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -1852,105 +1868,81 @@
           }
         }
       },
-      "NuGet.Common/6.3.1": {
+      "NuGet.Common/6.5.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Frameworks": "6.3.1"
+          "NuGet.Frameworks": "6.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.Common.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Common.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Common.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Common.dll": {}
         }
       },
-      "NuGet.Configuration/6.3.1": {
+      "NuGet.Configuration/6.5.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Common": "6.3.1",
+          "NuGet.Common": "6.5.0",
           "System.Security.Cryptography.ProtectedData": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.Configuration.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Configuration.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Configuration.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Configuration.dll": {}
         }
       },
-      "NuGet.DependencyResolver.Core/6.3.1": {
+      "NuGet.DependencyResolver.Core/6.5.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Configuration": "6.3.1",
-          "NuGet.LibraryModel": "6.3.1",
-          "NuGet.Protocol": "6.3.1"
+          "NuGet.Configuration": "6.5.0",
+          "NuGet.LibraryModel": "6.5.0",
+          "NuGet.Protocol": "6.5.0"
         },
         "compile": {
-          "lib/net5.0/NuGet.DependencyResolver.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.DependencyResolver.Core.dll": {}
         },
         "runtime": {
-          "lib/net5.0/NuGet.DependencyResolver.Core.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.DependencyResolver.Core.dll": {}
         }
       },
-      "NuGet.Frameworks/6.3.1": {
+      "NuGet.Frameworks/6.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
-      "NuGet.LibraryModel/6.3.1": {
+      "NuGet.LibraryModel/6.5.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Common": "6.3.1",
-          "NuGet.Versioning": "6.3.1"
+          "NuGet.Common": "6.5.0",
+          "NuGet.Versioning": "6.5.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.LibraryModel.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.LibraryModel.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.LibraryModel.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.LibraryModel.dll": {}
         }
       },
-      "NuGet.Packaging/6.3.1": {
+      "NuGet.Packaging/6.5.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "NuGet.Configuration": "6.3.1",
-          "NuGet.Versioning": "6.3.1",
+          "NuGet.Configuration": "6.5.0",
+          "NuGet.Versioning": "6.5.0",
           "System.Security.Cryptography.Cng": "5.0.0",
           "System.Security.Cryptography.Pkcs": "5.0.0"
         },
         "compile": {
-          "lib/net5.0/NuGet.Packaging.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.Packaging.dll": {}
         },
         "runtime": {
-          "lib/net5.0/NuGet.Packaging.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.Packaging.dll": {}
         }
       },
       "NuGet.ProjectModel/6.3.1": {
@@ -1969,33 +1961,25 @@
           }
         }
       },
-      "NuGet.Protocol/6.3.1": {
+      "NuGet.Protocol/6.5.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Packaging": "6.3.1"
+          "NuGet.Packaging": "6.5.0"
         },
         "compile": {
-          "lib/net5.0/NuGet.Protocol.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.Protocol.dll": {}
         },
         "runtime": {
-          "lib/net5.0/NuGet.Protocol.dll": {
-            "related": ".xml"
-          }
+          "lib/net5.0/NuGet.Protocol.dll": {}
         }
       },
-      "NuGet.Versioning/6.3.1": {
+      "NuGet.Versioning/6.5.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Versioning.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3847,10 +3831,54 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "NLayerApp.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "NLayerApp.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NLayerApp.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayerApp.BLL.dll": {}
+        }
+      },
+      "NLayerApp.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "7.0.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
+        },
+        "compile": {
+          "bin/placeholder/NLayerApp.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NLayerApp.DAL.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/12.0.1": {
+      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "type": "package",
+      "path": "automapper/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.12.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -6527,109 +6555,95 @@
         "packageIcon.png"
       ]
     },
-    "NuGet.Common/6.3.1": {
-      "sha512": "/WgxNyc9dXl+ZrQJDf5BXaqtMbl0CcDC5GEQITecbHZBQHApTMuxeTMMEqa0Y+PD1CIxTtbRY4jmotKS5dsLuA==",
+    "NuGet.Common/6.5.0": {
+      "sha512": "u5V3R9FzGHB57bcKhCjKdaaB3m+zzOIp7pXvcCVYa2fnXYUQVEoY7XE+nLKJwJqN6PXzQP9/ztUUSFl9uslNJw==",
       "type": "package",
-      "path": "nuget.common/6.3.1",
+      "path": "nuget.common/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Common.dll",
-        "lib/net472/NuGet.Common.xml",
         "lib/netstandard2.0/NuGet.Common.dll",
-        "lib/netstandard2.0/NuGet.Common.xml",
-        "nuget.common.6.3.1.nupkg.sha512",
+        "nuget.common.6.5.0.nupkg.sha512",
         "nuget.common.nuspec"
       ]
     },
-    "NuGet.Configuration/6.3.1": {
-      "sha512": "ja227AmXuDVgPXi3p2VTZFTYI/4xwwLSPYtd9Y9WIfCrRqSNDa96J5hm70wXhBCOQYvoRVDjp3ufgDnnqZ0bYA==",
+    "NuGet.Configuration/6.5.0": {
+      "sha512": "rodANSrSBCV84Go7JlwJjaNtAjfYwZlBdwFWIoiSvtU8HQ/cnXi3r2AL8OxLdkLpS+/FmmU/vftCcKucmhkDaA==",
       "type": "package",
-      "path": "nuget.configuration/6.3.1",
+      "path": "nuget.configuration/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Configuration.dll",
-        "lib/net472/NuGet.Configuration.xml",
         "lib/netstandard2.0/NuGet.Configuration.dll",
-        "lib/netstandard2.0/NuGet.Configuration.xml",
-        "nuget.configuration.6.3.1.nupkg.sha512",
+        "nuget.configuration.6.5.0.nupkg.sha512",
         "nuget.configuration.nuspec"
       ]
     },
-    "NuGet.DependencyResolver.Core/6.3.1": {
-      "sha512": "wSr4XMNE5f82ZveuATVwj+kS1/dWyXARjOZcS70Aiaj+XEWL8uo4EFTwPIvqPHWCem5cxmavBRuWBwlQ4HWjeA==",
+    "NuGet.DependencyResolver.Core/6.5.0": {
+      "sha512": "xLwBdBrQGF+UW332yNSN/1ONJvNvBupl5wND9+eMzumNyumhV5GDWDKs71ZF44+UQj5PyFv5iM8HAF6v5mPATw==",
       "type": "package",
-      "path": "nuget.dependencyresolver.core/6.3.1",
+      "path": "nuget.dependencyresolver.core/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.DependencyResolver.Core.dll",
-        "lib/net472/NuGet.DependencyResolver.Core.xml",
         "lib/net5.0/NuGet.DependencyResolver.Core.dll",
-        "lib/net5.0/NuGet.DependencyResolver.Core.xml",
         "lib/netstandard2.0/NuGet.DependencyResolver.Core.dll",
-        "lib/netstandard2.0/NuGet.DependencyResolver.Core.xml",
-        "nuget.dependencyresolver.core.6.3.1.nupkg.sha512",
+        "nuget.dependencyresolver.core.6.5.0.nupkg.sha512",
         "nuget.dependencyresolver.core.nuspec"
       ]
     },
-    "NuGet.Frameworks/6.3.1": {
-      "sha512": "Ae1vRjHDbNU7EQwQnDlxFRl+O9iQLp2H9Z/sRB/EAmO8+neUOeOfbkLClO7ZNcTcW5p1FDABrPakXICtQ0JCRw==",
+    "NuGet.Frameworks/6.5.0": {
+      "sha512": "QWINE2x3MbTODsWT1Gh71GaGb5icBz4chS8VYvTgsBnsi8esgN6wtHhydd7fvToWECYGq7T4cgBBDiKD/363fg==",
       "type": "package",
-      "path": "nuget.frameworks/6.3.1",
+      "path": "nuget.frameworks/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Frameworks.dll",
-        "lib/net472/NuGet.Frameworks.xml",
         "lib/netstandard2.0/NuGet.Frameworks.dll",
-        "lib/netstandard2.0/NuGet.Frameworks.xml",
-        "nuget.frameworks.6.3.1.nupkg.sha512",
+        "nuget.frameworks.6.5.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
       ]
     },
-    "NuGet.LibraryModel/6.3.1": {
-      "sha512": "aEB4AesZ+ddLVTBbewQFNHagbVbwewobBk2+8mk0THWjn0qIUH2l4kLTMmiTD7DOthVB6pYds8bz1B8Z0rEPrQ==",
+    "NuGet.LibraryModel/6.5.0": {
+      "sha512": "WH5qG19B0Y4cvEFJJcvuaDouHOdkXlV246RyX4mNkivyHG451FEMp5S7U5aWclIuiLc9y/SnohE0rSVqXaEkoQ==",
       "type": "package",
-      "path": "nuget.librarymodel/6.3.1",
+      "path": "nuget.librarymodel/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.LibraryModel.dll",
-        "lib/net472/NuGet.LibraryModel.xml",
         "lib/netstandard2.0/NuGet.LibraryModel.dll",
-        "lib/netstandard2.0/NuGet.LibraryModel.xml",
-        "nuget.librarymodel.6.3.1.nupkg.sha512",
+        "nuget.librarymodel.6.5.0.nupkg.sha512",
         "nuget.librarymodel.nuspec"
       ]
     },
-    "NuGet.Packaging/6.3.1": {
-      "sha512": "/GI2ujy3t00I8qFGvuLrVMNAEMFgEHfW+GNACZna2zgjADrxqrCeONStYZR2hHt3eI2/5HbiaoX4NCP17JCYzw==",
+    "NuGet.Packaging/6.5.0": {
+      "sha512": "n02Hqnw0Bz/936pmK/vxT2u3QtC1bgmw0Opm8N4sqdwWs41kHiKeJkudmBYRUZMDzsJIMn6Ub9JopWk7A7MjYQ==",
       "type": "package",
-      "path": "nuget.packaging/6.3.1",
+      "path": "nuget.packaging/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Packaging.dll",
-        "lib/net472/NuGet.Packaging.xml",
         "lib/net5.0/NuGet.Packaging.dll",
-        "lib/net5.0/NuGet.Packaging.xml",
         "lib/netstandard2.0/NuGet.Packaging.dll",
-        "lib/netstandard2.0/NuGet.Packaging.xml",
-        "nuget.packaging.6.3.1.nupkg.sha512",
+        "nuget.packaging.6.5.0.nupkg.sha512",
         "nuget.packaging.nuspec"
       ]
     },
@@ -6652,39 +6666,34 @@
         "nuget.projectmodel.nuspec"
       ]
     },
-    "NuGet.Protocol/6.3.1": {
-      "sha512": "1x3jozJNwoECAo88hrhYNuKkRrv9V2VoVxlCntpwr9jX5h6sTV3uHnXAN7vaVQ2/NRX9LLRIiD8K0NOTCG5EmQ==",
+    "NuGet.Protocol/6.5.0": {
+      "sha512": "CXDvu2mZga3qDAGvXTt6QTdpPZ5qNjpjZK2g7lU0MjamE3Eyi3dkN/GSr5QIyupcuCeOM8XHiNHRag6IF63Aqw==",
       "type": "package",
-      "path": "nuget.protocol/6.3.1",
+      "path": "nuget.protocol/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Protocol.dll",
-        "lib/net472/NuGet.Protocol.xml",
         "lib/net5.0/NuGet.Protocol.dll",
-        "lib/net5.0/NuGet.Protocol.xml",
         "lib/netstandard2.0/NuGet.Protocol.dll",
-        "lib/netstandard2.0/NuGet.Protocol.xml",
-        "nuget.protocol.6.3.1.nupkg.sha512",
+        "nuget.protocol.6.5.0.nupkg.sha512",
         "nuget.protocol.nuspec"
       ]
     },
-    "NuGet.Versioning/6.3.1": {
-      "sha512": "T/igBDLXCd+pH3YTWgGVNvYSOwbwaT30NyyM9ONjvlHlmaUjKBJpr9kH0AeL+Ado4EJsBhU3qxXVc6lyrpRcMw==",
+    "NuGet.Versioning/6.5.0": {
+      "sha512": "a2j4bDoSBVagDZ+Q61kAmxs/kY8q16cgNDdZuo867j5ip2F4yInjy1v8Ec9LslbP7QBtMzGDWw7rfBlFt6qofg==",
       "type": "package",
-      "path": "nuget.versioning/6.3.1",
+      "path": "nuget.versioning/6.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "icon.png",
         "lib/net472/NuGet.Versioning.dll",
-        "lib/net472/NuGet.Versioning.xml",
         "lib/netstandard2.0/NuGet.Versioning.dll",
-        "lib/netstandard2.0/NuGet.Versioning.xml",
-        "nuget.versioning.6.3.1.nupkg.sha512",
+        "nuget.versioning.6.5.0.nupkg.sha512",
         "nuget.versioning.nuspec"
       ]
     },
@@ -11166,10 +11175,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "NLayerApp.BLL/1.0.0": {
+      "type": "project",
+      "path": "../NLayerApp.BLL/NLayerApp.BLL.csproj",
+      "msbuildProject": "../NLayerApp.BLL/NLayerApp.BLL.csproj"
+    },
+    "NLayerApp.DAL/1.0.0": {
+      "type": "project",
+      "path": "../NLayerApp.DAL/NLayerApp.DAL.csproj",
+      "msbuildProject": "../NLayerApp.DAL/NLayerApp.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper >= 12.0.1",
       "EntityFramework >= 6.4.4",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore >= 7.0.4",
@@ -11178,7 +11198,9 @@
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.4",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5",
+      "NLayerApp.BLL >= 1.0.0",
+      "NuGet.DependencyResolver.Core >= 6.5.0"
     ]
   },
   "packageFolders": {
@@ -11207,7 +11229,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\source\\repos\\MVC\\NLayerApp.BLL\\NLayerApp.BLL.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\MVC\\NLayerApp.BLL\\NLayerApp.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11220,6 +11246,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.1, )"
+          },
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"
@@ -11259,6 +11289,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.5, )"
+          },
+          "NuGet.DependencyResolver.Core": {
+            "target": "Package",
+            "version": "[6.5.0, )"
           }
         },
         "imports": [

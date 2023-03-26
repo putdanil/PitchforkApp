@@ -1,13 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using MVC.Models;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace MVC
 {

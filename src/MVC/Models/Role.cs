@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MVC.Models;
 
+
 [Table("Role")]
 public partial class Role
 {

@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.AssemblyInfo.cs
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.BLL.deps.json
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.BLL.runtimeconfig.json
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.BLL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.BLL.pdb
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.DAL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\bin\Debug\net7.0\NLayerApp.DAL.pdb
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.csproj.CopyComplete
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\refint\NLayerApp.BLL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.pdb
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\NLayerApp.BLL.genruntimeconfig.cache
+C:\Users\user\source\repos\MVC\NLayerApp.BLL\obj\Debug\net7.0\ref\NLayerApp.BLL.dll

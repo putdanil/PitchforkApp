@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.AssemblyInfo.cs
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\bin\Debug\net7.0\NLayerApp.DAL.deps.json
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\bin\Debug\net7.0\NLayerApp.DAL.runtimeconfig.json
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\bin\Debug\net7.0\NLayerApp.DAL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\bin\Debug\net7.0\NLayerApp.DAL.pdb
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\refint\NLayerApp.DAL.dll
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.pdb
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\NLayerApp.DAL.genruntimeconfig.cache
+C:\Users\user\source\repos\MVC\NLayerApp.DAL\obj\Debug\net7.0\ref\NLayerApp.DAL.dll

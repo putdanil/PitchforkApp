@@ -7,13 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\**" />
     <Compile Remove="Views\Новая папка\**" />
+    <Content Remove="Data\**" />
     <Content Remove="Views\Новая папка\**" />
+    <EmbeddedResource Remove="Data\**" />
     <EmbeddedResource Remove="Views\Новая папка\**" />
+    <None Remove="Data\**" />
     <None Remove="Views\Новая папка\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
@@ -29,10 +34,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.5" />
+    <PackageReference Include="NuGet.DependencyResolver.Core" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
+    <ProjectReference Include="..\NLayerApp.BLL\NLayerApp.BLL.csproj" />
   </ItemGroup>
 
 </Project>

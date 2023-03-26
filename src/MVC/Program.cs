@@ -1,13 +1,12 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
-using System;
-using MVC.Models;
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using NLayerApp.BLL.Interfaces;
+using NLayerApp.BLL.Services;
+using NLayerApp.DAL.Interfaces;
+using NLayerApp.DAL.Repositories;
 
 namespace MVC
 {
@@ -17,7 +16,10 @@ namespace MVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-
+            builder.Services.AddTransient<IUserService, UserService>();
+            builder.Services.AddTransient<IUnitOfWork, EFUnitOfWork>();
+            builder.Services.AddTransient<IRoleService, RoleService>();
+            builder.Services.AddTransient<ITombstoneService, TombstoneService>();
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpContextAccessor();
             builder.Services.TryAddSingleton<IActionContextAccessor, ActionContextAccessor>();
